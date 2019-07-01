@@ -1,0 +1,116 @@
+@charset "UTF-8";
+.page {
+  margin: 0; }
+
+.fon_grey {
+  width: 100%;
+  height: 100Vh;
+  background-color: #d8d4d4;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+
+.fon_white {
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; }
+  .form__pas {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #d8d4d4;
+    border-radius: 3px;
+    position: relative; }
+  .form__but {
+    width: 204px;
+    height: 30px;
+    border: 1px solid #d8d4d4;
+    border-radius: 3px;
+    color: white;
+    background-color: #3f3fcb;
+    margin: 6px 0 6px 0; }
+  .form__reg {
+    width: 204px;
+    height: 30px;
+    color: #3f3fcb;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px 0 6px 0; }
+  .form__account {
+    width: 204px;
+    height: 20px;
+    border: 1px solid #d8d4d4;
+    border-radius: 3px; }
+
+.fa-exclamation-circle {
+  color: #980909;
+  position: absolute;
+  top: 4px;
+  right: 5px; }
+
+.form:after {
+  position: absolute;
+  top: -10px;
+  right: -216px;
+  content: "Вы ввели неверный пароль. Забыли пароль?";
+  font-size: 10px;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 3px;
+  background-color: #980909;
+  color: white;
+  width: 200px;
+  height: 21px; }
+
+.form:before {
+  position: absolute;
+  top: 0px;
+  right: -17px;
+  content: "";
+  width: 0px;
+  border-top: 8px solid white;
+  border-right: 10px solid #980909;
+  border-bottom: 8px solid white; }
+
+.form__account:hover {
+  cursor: pointer; }
+
+.form__reg:hover {
+  cursor: pointer; }
+
+.form__but:hover {
+  cursor: pointer; }
+
+.picture {
+  width: 75px;
+  height: 75px;
+  border-radius: 5px; }
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .avatar__name {
+    display: inherit;
+    font-size: 13px; }
+    .avatar__name__ukrnet {
+      padding-right: 10px;
+      color: #979494; }
+    .avatar__name__reg {
+      color: #3f3fcb;
+      font-size: 13px; }
+
+.avatar__name__reg:hover {
+  cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,18 @@
+.picture
+    @include size(75px, 75px)
+    border-radius: 5px
+.avatar
+    display: flex
+    flex-direction: column
+    align-items: center
+    &__name
+        display: inherit
+        font-size: 13px
+        &__ukrnet
+            padding-right: 10px
+            color: #979494
+        &__reg
+            color: #3f3fcb
+            font-size: 13px
+.avatar__name__reg:hover
+    cursor: pointer
